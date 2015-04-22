@@ -18,5 +18,6 @@ class controlTester(unittest.TestCase):
         casoResultado = stringEmpty.encript(caso)
         self.assertEqual(casoResultado, "")
         
+        print ("prueba rama")
                
         
