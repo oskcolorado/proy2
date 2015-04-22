@@ -16,5 +16,7 @@ class controlTester(unittest.TestCase):
         stringEmpty = clsAccessControl()
         caso = ""
         casoResultado = stringEmpty.encript(caso)
-        self.assertEqual(casoResultado, "")        
+        self.assertEqual(casoResultado, "")
+        
+               
         
